@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); /* google雲端字體 思源黑體*/
 /* CSS Document */
 /* body */
-body{
+body {
 	font-family:"Noto Sans TC", sans-serif;  /* google雲端字體 思源黑體*/
 	/* background: #fff;   背景色 */
 	margin: 0;          /* 外部距離設為0*/
@@ -15,14 +15,14 @@ body{
 	/*固定背景圖片*/
 }
 /* 區塊設定 */
-header{
+header {
 	background:#258CA6;  /* 背景色*/
 	padding-top: 10px;   /* 內距-上方，上方內部距離為10px*/
 	
 	background: linear-gradient(rgba(0, 91, 112, 0.8), rgba(123, 219, 241, 0.8));
 	/*漸層色｜不透明度80%*/
 }
-main{
+main {
 	/* background:#D5EFF5; 背景色 */
 	padding: 30px;      /* 內距，內部距離設為30px*/
 	font-size: 16px;    /* 內文的字體大小設為16px*/
@@ -33,7 +33,7 @@ main{
 	/* 背景透明色*/
 }
 
-footer{
+footer {
 	/* background:#258CA6; 背景色 */
 	padding: 10px;      /* 內距，內部距離設為10px*/	
 	font-size: 14px;    /* 內文的字體大小設為14px*/	
@@ -64,10 +64,10 @@ h2 {
 }
 
 /* 超連結 */
-a{
+a {
 	color: #EF5095;        /* 超連結屬性的文字顏色設定*/
 }
-a:hover{
+a:hover {
 	color: #048FC1;        /* 超連結『滑鼠滑過』文字顏色設定*/
 	text-decoration: none; /* 超連結『滑鼠滑過』文字無底線裝飾效果*/
 }
