@@ -62,7 +62,15 @@ h2 {
 	color: #E4EEF7;     /* 文字顏色設定*/
 	font-weight: 300;   /* 文字粗細設定*/
 }
-
+h3 {
+	font-size: 14px;
+	/* 內文的字體大小設為14px*/
+	color: #E4EEF7;
+	/* 文字顏色設定*/
+	font-weight: 100;
+	/* 文字粗細設定*/
+	text-shadow: 5px 5px 5px #176290;
+}
 /* 超連結 */
 a {
 	color: #EF5095;        /* 超連結屬性的文字顏色設定*/

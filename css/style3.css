@@ -35,6 +35,7 @@ h1 {
 	font-weight:700;    /* 文字粗細設定，100,300,400,500,700,700*/	
     text-shadow: 5px 5px 5px #176290;
 }
+
 /* 標題 */
 h2 {
 	font-size: 16px;    /* 內文的字體大小設為16px*/
@@ -43,7 +44,7 @@ h2 {
     text-shadow: 5px 5px 5px #176290;
 }
 h3 {
-	font-size: 14px;    /* 內文的字體大小設為14px*/
+	font-size: 16px;    /* 內文的字體大小設為14px*/
 	color: #E4EEF7;     /* 文字顏色設定*/
 	font-weight: 100;   /* 文字粗細設定*/
     text-shadow: 5px 5px 5px #176290;
@@ -92,8 +93,27 @@ a:hover {
 .lyrics:hover {
     opacity: 1;
 }
-/* footer p { */
+
+/* h1 標題動畫的CSS設定*/
 h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        padding-right: 100%;
+        width: 0%;
+    }
+
+    to {
+        padding-right: 0%;
+        width: 100%;
+    }
+}
+
+/* h3 標題動畫的CSS設定 { */
+h3 {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-name: twinkle;
