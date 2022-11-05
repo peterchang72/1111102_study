@@ -112,21 +112,21 @@ img {
 }
 
 /* jQuery部分之CSS設定*/
-#tabs {
-	width: 50%;
+/* #tabs {
+	width: 50%; */
 	/* tabs 寬度設為50% */
-	margin: 0px auto;
+	/* margin: 0px auto; */
 	/* tabs 置中對齊 */
-}
+/* } */
 
-.ui-widget-content {
-	border: 1px solid #aaaaaa;
+/* .ui-widget-content {
+	border: 1px solid #aaaaaa; */
 	/* tabs 邊框設為寬1px灰色的實線 ，可自行修改 */
-	background: rgba(172, 217, 224, 0.6);
+	/* background: rgba(172, 217, 224, 0.6); */
 	/* tabs 底色 設定為淺藍色，不透明度60%*/
-	color: #222222;
+	/* color: #222222; */
 	/* tabs 文字的顏色*/
-}
+/* } */
 
 /* h1標題動畫的CSS設定*/
 h1 {
