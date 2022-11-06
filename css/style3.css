@@ -124,3 +124,10 @@ h3 {
     50% {color: #E4EEF7;}
     100% {color: transparent;}
 }
+/* jQuery部分之CSS設定*/
+#tabs {
+    width: 62%;
+    /* tabs 寬度設為50% */
+    margin: 0px auto;
+    /* tabs 置中對齊 */
+}
